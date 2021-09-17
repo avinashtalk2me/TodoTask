@@ -13,6 +13,19 @@
   }
 }
 
+input[type="text"] {
+  height: 35px;
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+input[type="button"] {
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +39,23 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Todo-Add {
+  padding: 10px 0px;
+}
+
+.Task-Section {
+   border: 2px solid;
+    width: 35%;
+    /* justify-content: center; */
+    margin: auto;
+    padding: 10px 10px;
+}
+
+.task-block {
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes App-logo-spin {
